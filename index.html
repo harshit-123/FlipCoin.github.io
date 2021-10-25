@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flip The Coin</title>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Try Your Luck Here</h2>
+        <div class="coin" id="coin">
+            <div class="tail" id="tail">
+                <img src="images/Tail.png" alt="Tail">
+            </div>
+            <div class="head" id="head">
+                <img src="images/Head.png" alt="Head" srcset="">
+            </div>
+        </div>
+        <div class="stats">
+            <p id="heads-count">Heads: 0</p>
+            <p id="tails-count">Tails: 0</p>
+        </div>
+        <div class="buttons">
+            <button id="flip-button">Flip Coin</button>
+            <button id="reset-button">Reset</button>
+         </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
